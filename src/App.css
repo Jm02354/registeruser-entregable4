@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #FFFFFF;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 5px;
+}
+input {
+  padding: 5px;
+  border: 1px solid #D6D4D5;
+  color: black;
+}
+button {
+  border: none;
+  padding: 3px 9px;
+}
+/* App */
+.app__header{
+  font-family: 'Roboto', Arial, sans-serif;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.createbtn{
+  background-color: #555A88;
+  color: white;
+  font-size: medium;
+  width: 20%;
+}
+.app__container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
